@@ -35,7 +35,6 @@ int main() {
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) {
             capibara.jump();
         }
-
         capibara.update(dt);
 
         window.clear();
